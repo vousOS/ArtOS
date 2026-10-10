@@ -1,4 +1,4 @@
-# 🖥️ ArtOS Generation 3 (Gen 3)
+# 🖥️ Art OS V1.2
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-In%20Development-orange.svg)]()
