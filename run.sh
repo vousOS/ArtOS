@@ -1,0 +1,11 @@
+/home/maxim/.cosmos/tools/qemu/qemu-system-x86_64 \
+  -L "/home/maxim/.cosmos/tools/share/qemu" \
+  -M q35 \
+  -m 512M \
+  -drive file="/home/maxim/ArtOS/ArtOS/ArtOS/output-x64/ArtOS.iso",if=none,id=cosmoscd,format=raw,readonly=on \
+  -device ide-cd,drive=cosmoscd,bootindex=0 \
+  -boot d \
+  -no-reboot \
+  -no-shutdown \
+  -vga std \
+  -serial stdio
